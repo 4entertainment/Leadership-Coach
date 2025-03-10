@@ -2,7 +2,7 @@
 ## Case Study for AI Engineer Recruitment Process at Enocta
 
 **Berkin ALKAN**  
-alkanberkin@gmail.com | +90(539)200 20 25
+alkanberkin@gmail.com | +90(539) 200 20 25
 
 ### Introduction & Project Overview:
 
