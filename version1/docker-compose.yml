@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  weaviate:
+    image: semitechnologies/weaviate:latest
+    ports:
+      - 8080:8080
+      - 50051:50051
+    environment:
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      QUERY_DEFAULTS_LIMIT: 25
+      ENABLE_MODULES: 'text2vec-huggingface'
+      HUGGINGFACE_APIKEY: 'my-huggingface-api-key' # 🔑
