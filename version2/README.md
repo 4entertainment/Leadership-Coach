@@ -1,4 +1,4 @@
-# Leadership Coach Project
+# Leadership Coach Project 🚀
 
 This project is designed to provide users with leadership coaching through the use of natural language processing (NLP) models, document indexing, and a text-to-speech (TTS) system. It allows users to search for relevant documents, generate responses from a large language model (LLM), and interact with the application via a virtual assistant that speaks the responses.
 
@@ -95,8 +95,20 @@ This project is designed to provide users with leadership coaching through the u
 
 
 ## Known Issues and Future Improvements
-- The functionality may be affected by internet connection problems or issues with the DuckDuckGo API, meaning the web search may not work as expected. Therefore, this feature is currently limited or non-functional. Alternative solutions such as using libraries like BeautifulSoup, Requests, or Serapi (with an API key) for web searching could have been explored, but due to time constraints, they were not implemented.
+- **Web Search:** The functionality may be affected by internet connection problems or issues with the DuckDuckGo API, meaning the web search may not work as expected. Therefore, this feature is currently limited or non-functional. Alternative solutions such as using libraries like BeautifulSoup, Requests, or Serapi (with an API key) for web searching could have been explored, but due to time constraints, they were not implemented.
 
-- Regarding the web search functionality, although it was added in a non-functional state, it was designed to be user-dependent. In other words, the use case was intended to perform a web search based on a query provided by the user. However, a further improvement idea emerged: when the LLM generates responses like "Bilmiyorum." or "Bilgim yok." an automatic web search could have been triggered to provide a more insightful answer. This would have resulted in an AI-based solution, and if necessary, the web search results could have been presented to the user separately. Allowing the LLM to make this decision would have been an innovative approach.
+- **Web Search:** Regarding the web search functionality, although it was added in a non-functional state, it was designed to be user-dependent. In other words, the use case was intended to perform a web search based on a query provided by the user. However, a further improvement idea emerged: when the LLM generates responses like "Bilmiyorum." or "Bilgim yok." an automatic web search could have been triggered to provide a more insightful answer. This would have resulted in an AI-based solution, and if necessary, the web search results could have been presented to the user separately. Allowing the LLM to make this decision would have been an innovative approach.
 
-- For speech-to-text processing, the "openai/whisper-large-v3" model was used. However, it was later discovered that ElevenLabs' API provides a much more efficient solution for speech-to-text tasks. Due to time limitations and the exhaustion of the API key quota, integrating ElevenLabs into the project was not feasible.
+- **Text-to-Speech Processing:** For speech-to-text processing, the "openai/whisper-large-v3" model was used. However, it was later discovered that ElevenLabs' API provides a much more efficient solution for speech-to-text tasks. Due to time limitations and the exhaustion of the API key quota, integrating ElevenLabs into the project was not feasible.
+
+- **Web Hosting and Accessibility:** At the final stage, a hosting request was made to enable "Web Accessibility: Making the Coach accessible through a web link." However, this could not be achieved for the following reasons:
+
+    - The development environment used for the project, including the video capture environment, was only available for a limited period. The project development time was constrained to just 3.5 days, which was insufficient for setting up a hosting solution.
+
+    - Additionally, serving the project was not feasible because multiple large models were used to achieve performance. These models include:
+
+        - Llama 3:70b
+        - BGE-M3
+        - Whisper
+
+    Since a number of large models were utilized to achieve the necessary performance, setting up serving in a production environment was not practical. Furthermore, the development environment was provided under specific terms, and serving was not permitted within that environment. **As the developer, I take responsibility for this limitation.** However, with more time, I had planned to rent a GPU from platforms like Vast.ai or Google Colab and perform the serving using Streamlit deployment to enable web accessibility.
