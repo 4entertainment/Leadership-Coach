@@ -46,7 +46,7 @@ This project is designed to provide users with leadership coaching through the u
 
 1. Clone the repository:
     ```bash
-    git clone [<your-repository-url>](https://github.com/4entertainment/Leadership-Coach.git)
+    git clone https://github.com/4entertainment/Leadership-Coach.git
     cd Leadership-Coach/version2
     ```
 
