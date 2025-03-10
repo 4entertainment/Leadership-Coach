@@ -18,27 +18,21 @@ This project has been developed in two main versions: **Version 1** and **Versio
 
 ## Version 1: Weaviate Server-Client Setup
 
-**Version 1** was implemented using a Weaviate vector database configured as a **server-client architecture** using Docker. This version leverages Weaviate’s powerful features for storing and querying data.
+**Version 1** was implemented using a Weaviate vector database configured as a **server-client architecture** using Docker. This version leverages Weaviate’s powerful features for storing and querying data. The flowchart illustrating this approach is shown below.
 
-## Version 2: ElevenLabs Approach and Data Type Method
+![Data Type Flowchart](3.png)
 
-**Version 2** represents the final and refined version of the project. This version includes more advanced data processing and analysis methods while providing a more user-friendly experience.
-
-### Preferred Data Type Method
-
-In **Version 2**, the **initially preferred data type method** was used to process, organize, and analyze data within the overall system architecture. This flowchart illustrates how the structure of the entire system, including data flow, processing stages, and chosen methods. Below is the **preferred data type flowchart**.
-
-![Data Type Flowchart](1.png)
-
-### ElevenLabs Approach Flowchart
+## ElevenLabs Approach
 
 This flowchart represents the ElevenLabs approach, showing its structure and how it processes data. However, due to API key limitations and time constraints, I was unable to continue with this approach. Instead, I conducted the analysis within the repository under `version2/data`.
 
-![ElevenLabs Flowchart](2.png)
+![ElevenLabs Flowchart](1.png)
 
-### General Project Flowchart
+### Version 2: General Project Flowchart
 
-The diagram below illustrates the **overall workflow** of the project, showing the integration of different components:
+**Version 2** represents the **final and optimized** iteration of the project, incorporating **advanced data processing and analysis techniques** while enhancing the overall **user experience**. This version leverages the **initially preferred** data type method to efficiently process, structure, and analyze data within the system’s architecture.
+
+The **flowchart** below provides a **overview** of the system, illustrating the **data flow**, **key processing stages, and the integration of various components** within the workflow.
 
 ![General Workflow](3.png)
 
