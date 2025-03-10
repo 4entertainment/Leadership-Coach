@@ -1,4 +1,4 @@
-# Weaviate Project - Version 2
+# Leadership Coach Project - Weaviate Codes
 
 ## Overview
 
