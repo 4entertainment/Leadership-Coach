@@ -1,0 +1,24 @@
+{
+  "path": "BAAI/bge-m3",
+  "hybrid": true,
+  "content": true,
+  "method": "clspooling",
+  "scoring": {
+    "method": "bm25",
+    "terms": true,
+    "normalize": true
+  },
+  "dimensions": 1024,
+  "backend": "faiss",
+  "offset": 27,
+  "build": {
+    "create": "2025-03-09T19:49:28Z",
+    "python": "3.10.16",
+    "settings": {
+      "components": "IDMap,Flat"
+    },
+    "system": "Linux (x86_64)",
+    "txtai": "8.3.1"
+  },
+  "update": "2025-03-09T19:49:28Z"
+}
