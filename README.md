@@ -34,7 +34,7 @@ This flowchart represents the ElevenLabs approach, showing its structure and how
 
 The **flowchart** below provides a **overview** of the system, illustrating the **data flow**, **key processing stages, and the integration of various components** within the workflow.
 
-![General Workflow](3.png)
+![General Workflow](2.png)
 
 ## Reason for Transition to Version 2
 
